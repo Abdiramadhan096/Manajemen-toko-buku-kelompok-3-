@@ -1,6 +1,7 @@
 from mysql.connector import Error
 from config.database import Database
 
+
 class TransaksiModel:
     def __init__(self):
         self.db = Database()

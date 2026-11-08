@@ -3,6 +3,7 @@ from views.daftar_buku_view import DaftarBukuView
 
 BATAS_STOK = 5  # stok sama dengan atau di bawah angka ini dianggap menipis
 
+
 class DaftarBukuController:
     def __init__(self, parent, judul):
         self.model = BukuModel()

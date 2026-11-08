@@ -1,4 +1,6 @@
 import customtkinter as ctk
+
+
 class LoginView(ctk.CTk):
     def __init__(self):
         super().__init__()
@@ -20,6 +22,7 @@ class LoginView(ctk.CTk):
 
         self.btn_login = ctk.CTkButton(self.frame, text="Masuk", fg_color="blue")
         self.btn_login.pack(pady=20, padx=20, fill="x")
+
 
 if __name__ == "__main__":
     app = LoginView()

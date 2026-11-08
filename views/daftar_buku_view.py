@@ -1,6 +1,7 @@
 import customtkinter as ctk
 from tkinter import ttk
 
+
 class DaftarBukuView(ctk.CTkFrame):
     """Tabel buku + stok (hanya lihat). Dipakai kasir (Buku & Stok) dan pemilik (Persediaan)."""
 
@@ -32,6 +33,7 @@ class DaftarBukuView(ctk.CTkFrame):
         self.tabel.tag_configure("menipis", foreground="red")
 
         self.tabel.pack(fill="both", expand=True, padx=15, pady=(0, 10))
+
 
 if __name__ == "__main__":
     app = ctk.CTk()
