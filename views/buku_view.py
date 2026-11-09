@@ -1,5 +1,6 @@
 import customtkinter as ctk
 from tkinter import ttk
+from .table_style import configure_table_style
 
 
 class BukuView(ctk.CTkFrame):
@@ -74,7 +75,14 @@ class BukuView(ctk.CTkFrame):
         ).pack(pady=10)
 
         kolom = ("id", "judul", "penulis", "kategori", "harga", "stok", "supplier")
-        self.tabel = ttk.Treeview(self.frame_kanan, columns=kolom, show="headings", height=15)
+        configure_table_style(self)
+        self.tabel = ttk.Treeview(
+            self.frame_kanan,
+            columns=kolom,
+            show="headings",
+            height=15,
+            selectmode="browse"
+        )
 
         self.tabel.heading("id", text="ID")
         self.tabel.heading("judul", text="Judul Buku")
