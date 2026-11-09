@@ -1,7 +1,7 @@
 # Sistem Informasi Manajemen Toko Buku
 Tugas Besar Project UAS Rekayasa Perangkat Lunak (RPL) - Kelas SI A
 
-## Anggota Kelompok 4
+## Anggota Kelompok 3
 1. Moh. Abdi Ramadhan (F5212510001)
 2. Andi Nayla Sava Arrahmah P (F5212510005)
 3. Adelia Mutmaina (F5212510012)
